@@ -4,7 +4,6 @@ public class Product {
 
 	int pdtId;
 	String pdtName;
-	int qty;
 	
 	public int getQty(){
 		return qty;

@@ -4,13 +4,15 @@ public class Product {
 
 	int pdtId;
 	String pdtName;
+	double discount;
 	
-	public int getQty(){
-		return qty;
+	public double getDiscount() {
+		return discount;
 	}
-	public void setQty(int qty) {
-		this.qty = qty;
+	public void setDiscount(int discount) {
+		this.discount = discount;
 	}
+	
 	public int getPdtId() {
 		return pdtId;
 	}
